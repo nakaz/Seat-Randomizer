@@ -2,6 +2,33 @@
   clear: both;
 }
 
+body {
+  background-color: #503047;
+}
+
+h1, h4 {
+  text-align: center;
+  font-family: helvetica;
+  text-transform: uppercase;
+  color: #ADC698;
+}
+
+h1 {
+  color: #C05746;
+}
+
+h4 a {
+  text-decoration: none;
+  color: #C05746;
+}
+
+#message p, #footer p {
+  text-align: center;
+  font-size: 12px;
+  font-family: helvetica;
+  color: #FFFFFF;
+}
+
 #nameInput, #outputArea {
   text-align: center;
 }
@@ -57,10 +84,16 @@
   height: 8.8em;
   outline: 1px solid black;
   margin-top: 1px;
+  background-color: #D0E3C4;
 }
 
 .tablebottom .seat {
   width: 9.9em;
   height: 7em;
   margin-left: 1px;
+}
+
+.seatname {
+  font-family: helvetica;
+  line-height: 6em;
 }
