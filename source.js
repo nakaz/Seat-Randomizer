@@ -1,7 +1,4 @@
 //the input used for the parameter
-var current = ['Ray', 'Julia', 'Matt', 'Jenn', 'Sean', 'Cannon', 'Keahi', 'Mete'];
-
-
 function randomSeat(array){
 
   //shuffle array
@@ -47,8 +44,6 @@ function randomSeat(array){
     shuffle(array);
     tester(mod);
   }
-
   console.log(mod);
+  return mod;
 }
-
-randomSeat(current);
