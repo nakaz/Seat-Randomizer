@@ -17,7 +17,8 @@ $(document).ready(function(){
     $('.name').val('');
     names = randomSeat(names);
     $(names).each(function(index, element){
-      $('#outputArea').append('<li class="someName">' + element + '</li>');
+      // $('#outputArea').prepend('<li class="someName">' + element + '</li>');
+      $('#' + (index+1)).append('<p>' + element + '</p>');
 
     });
   });

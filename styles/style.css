@@ -1,3 +1,52 @@
 .clear {
   clear: both;
 }
+
+#seatmap {
+
+}
+
+.tablearea {
+  float: left;
+  margin-right: 1em;
+}
+
+.tableleft, .tableright {
+  height: 18em;
+  width: 7em;
+  float: left;
+  /*border-top: 1px solid black;*/
+  /*border-bottom: 1px solid black;*/
+/*  border-left: 1px solid black;
+  border-right: 1px solid black;*/
+  margin-right: 5px;
+
+}
+
+.tableleft {
+  margin-left: 45px;
+}
+
+.tableright {
+}
+
+.tablebottom {
+  width: 20em;
+  height: 7em;
+}
+
+.seat {
+  text-align: center;
+  margin: 0 auto;
+  float: left;
+  width: 7em;
+  height: 8.8em;
+  outline: 1px solid black;
+  margin-top: 1px;
+}
+
+.tablebottom .seat {
+  width: 9.9em;
+  height: 7em;
+  margin-left: 1px;
+}
