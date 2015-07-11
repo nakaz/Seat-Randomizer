@@ -1,6 +1,6 @@
 $(document).ready(function(){
-  $('#nameInput').append('<input id="studentcount" placeholder="Enter Number of Students">');
-  $('#nameInput').append('<button id="newInput">Input Another Name</button>');
+  $('#nameInput').append('<input id="studentcount" placeholder=" X">');
+  $('#nameInput').append('<button id="newInput">Number of Students</button>');
   $('#newInput').click(function(){
     var number = $('#studentcount').val();
     console.log(number);
